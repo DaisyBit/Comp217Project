@@ -1662,3 +1662,11 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.04.01-17.20.39:949][707]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 359.522369
 [2025.04.01-17.20.40:949][710]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.04.01-17.20.40:949][710]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 360.191376, Update Interval: 320.927765
+[2025.04.01-17.25.16:952][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.04.01-17.25.16:967][536]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.019
+[2025.04.01-17.26.05:786][684]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 685.360596
+[2025.04.01-17.26.06:789][687]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.01-17.26.06:789][687]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 686.041504, Update Interval: 308.276611
+[2025.04.01-17.31.20:227][627]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 999.800110
+[2025.04.01-17.31.21:215][630]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.01-17.31.21:215][630]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1000.453247, Update Interval: 349.734802
