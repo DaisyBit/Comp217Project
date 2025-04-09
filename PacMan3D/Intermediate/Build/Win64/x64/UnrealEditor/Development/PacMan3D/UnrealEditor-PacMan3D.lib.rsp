@@ -1,0 +1,25 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-PacMan3D.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\PacMan3DEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\PacMan3D.init.gen.cpp.obj"
+"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\PacMan3DCharacter.gen.cpp.obj"
+"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\PacMan3DGameMode.gen.cpp.obj"
+"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\PacMan3DPlayerController.gen.cpp.obj"
+"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\PacMan3DProjectile.gen.cpp.obj"
+"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\TP_PickUpComponent.gen.cpp.obj"
+"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\TP_WeaponComponent.gen.cpp.obj"
+"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\PacMan3D.cpp.obj"
+"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\PacMan3DCharacter.cpp.obj"
+"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\PacMan3DGameMode.cpp.obj"
+"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\PacMan3DPlayerController.cpp.obj"
+"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\PacMan3DProjectile.cpp.obj"
+"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\TP_PickUpComponent.cpp.obj"
+"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\TP_WeaponComponent.cpp.obj"
+"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\Default.rc2.res"
+/OUT:"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\UnrealEditor-PacMan3D.lib"

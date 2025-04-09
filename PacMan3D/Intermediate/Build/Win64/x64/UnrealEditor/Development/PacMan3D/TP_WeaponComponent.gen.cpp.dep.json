@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\school\\semester 4\\c++ for game developers\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\unrealeditor\\inc\\pacman3d\\uht\\tp_weaponcomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\school\\semester 4\\c++ for game developers\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\x64\\pacman3deditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\school\\semester 4\\c++ for game developers\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\pacman3d\\definitions.pacman3d.h",
+            "d:\\school\\semester 4\\c++ for game developers\\github\\comp217project\\pacman3d\\source\\pacman3d\\tp_weaponcomponent.h",
+            "d:\\school\\semester 4\\c++ for game developers\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\unrealeditor\\inc\\pacman3d\\uht\\tp_weaponcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
