@@ -1,5 +1,3 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
 #pragma once
 
 #include "CoreMinimal.h"
@@ -43,6 +41,9 @@ class APacMan3DCharacter : public ACharacter
 	
 public:
 	APacMan3DCharacter();
+
+	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category = "Score")
+	int32 Score = 0;
 
 protected:
 	virtual void BeginPlay();

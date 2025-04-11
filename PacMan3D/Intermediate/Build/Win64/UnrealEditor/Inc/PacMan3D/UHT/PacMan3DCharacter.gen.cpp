@@ -167,6 +167,10 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DCharacter() {}
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_MoveAction;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Score_MetaData[];
+#endif
+		static const UECodeGen_Private::FIntPropertyParams NewProp_Score;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_LookAction_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_LookAction;
@@ -268,6 +272,13 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DCharacter() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_MoveAction = { "MoveAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APacMan3DCharacter, MoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_MoveAction_MetaData), Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_MoveAction_MetaData) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_Score_MetaData[] = {
+		{ "Category", "Score" },
+		{ "ModuleRelativePath", "PacMan3DCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_Score = { "Score", nullptr, (EPropertyFlags)0x0010000000020005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APacMan3DCharacter, Score), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_Score_MetaData), Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_Score_MetaData) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_LookAction_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Input" },
@@ -304,6 +315,7 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DCharacter() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_DefaultMappingContext,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_JumpAction,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_MoveAction,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_Score,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_LookAction,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_bHasRifle,
 	};
@@ -340,15 +352,15 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DCharacter() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APacMan3DCharacter);
 	APacMan3DCharacter::~APacMan3DCharacter() {}
-	struct Z_CompiledInDeferFile_FID_School_Semester_4_C___For_Game_Developers_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_Statics
+	struct Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_School_Semester_4_C___For_Game_Developers_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_APacMan3DCharacter, APacMan3DCharacter::StaticClass, TEXT("APacMan3DCharacter"), &Z_Registration_Info_UClass_APacMan3DCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APacMan3DCharacter), 2054731637U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_APacMan3DCharacter, APacMan3DCharacter::StaticClass, TEXT("APacMan3DCharacter"), &Z_Registration_Info_UClass_APacMan3DCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APacMan3DCharacter), 1011549231U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_School_Semester_4_C___For_Game_Developers_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_350028765(TEXT("/Script/PacMan3D"),
-		Z_CompiledInDeferFile_FID_School_Semester_4_C___For_Game_Developers_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_School_Semester_4_C___For_Game_Developers_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_1347709146(TEXT("/Script/PacMan3D"),
+		Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

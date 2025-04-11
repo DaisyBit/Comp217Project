@@ -1,11 +1,11 @@
-"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Source\PacMan3D\PacMan3DCharacter.cpp"
-/FI"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\PacMan3DEditor\Development\Engine\SharedPCH.Engine.Cpp20.h"
-/FI"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\Definitions.PacMan3D.h"
-/Yu"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\PacMan3DEditor\Development\Engine\SharedPCH.Engine.Cpp20.h"
-/Fp"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\PacMan3DEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.pch"
-/Fo"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\PacMan3DCharacter.cpp.obj"
-/sourceDependencies "D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\PacMan3DCharacter.cpp.dep.json"
-@"D:\School\Semester 4\C++ For Game Developers\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\PacMan3D.Shared.rsp"
+"C:\Github\Comp217Project\PacMan3D\Source\PacMan3D\PacMan3DCharacter.cpp"
+/FI"C:\Github\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\PacMan3DEditor\Development\Engine\SharedPCH.Engine.Cpp20.h"
+/FI"C:\Github\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\Definitions.PacMan3D.h"
+/Yu"C:\Github\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\PacMan3DEditor\Development\Engine\SharedPCH.Engine.Cpp20.h"
+/Fp"C:\Github\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\PacMan3DEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.pch"
+/Fo"C:\Github\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\PacMan3DCharacter.cpp.obj"
+/sourceDependencies "C:\Github\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\PacMan3DCharacter.cpp.dep.json"
+@"C:\Github\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\Development\PacMan3D\PacMan3D.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi
