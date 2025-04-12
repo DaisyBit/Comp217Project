@@ -258,6 +258,9 @@
 /I "Developer\WidgetRegistration\Public"
 /I "C:\Github\Comp217Project\PacMan3D\Intermediate\Build\Win64\UnrealEditor\Inc\PacMan3D\UHT"
 /I "C:\Github\Comp217Project\PacMan3D\Source"
+/I "..\Intermediate\Build\Win64\UnrealEditor\Inc\AIModule\UHT"
+/I "Runtime\AIModule\Classes"
+/I "Runtime\AIModule\Public"
 /I "..\Plugins\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput\UHT"
 /I "..\Plugins\EnhancedInput\Source\EnhancedInput\Public"
 /external:W0

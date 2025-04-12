@@ -10,7 +10,6 @@ void AGameHUD::DrawHUD()
     APacMan3DCharacter* Player = Cast<APacMan3DCharacter>(GetOwningPawn());
     if (Player && Canvas)
     {
-        UE_LOG(LogTemp, Warning, TEXT("GameHUD is active Greg"));
 
         FString ScoreText = FString::Printf(TEXT("Score: %d"), Player->Score);
 

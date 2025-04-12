@@ -3,7 +3,7 @@
     "Data": {
         "Source": "c:\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\unrealeditor\\inc\\pacman3d\\uht\\tp_pickupcomponent.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\x64\\pacman3deditor\\debuggame\\engine\\sharedpch.engine.nonoptimized.cpp20.h.pch",
+        "PCH": "c:\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\x64\\pacman3deditor\\debuggame\\unrealed\\sharedpch.unrealed.nonoptimized.cpp20.h.pch",
         "Includes": [
             "c:\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\pacman3d\\definitions.pacman3d.h",
             "c:\\github\\comp217project\\pacman3d\\source\\pacman3d\\tp_pickupcomponent.h",

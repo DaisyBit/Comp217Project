@@ -1,4 +1,4 @@
-#include "C:/Github/Comp217Project/PacMan3D/Intermediate/Build/Win64/x64/PacMan3DEditor/DebugGame/Engine/SharedDefinitions.Engine.NonOptimized.Cpp20.h"
+#include "C:/Github/Comp217Project/PacMan3D/Intermediate/Build/Win64/x64/PacMan3DEditor/DebugGame/UnrealEd/SharedDefinitions.UnrealEd.NonOptimized.Cpp20.h"
 #undef UE_IS_ENGINE_MODULE
 #undef DEPRECATED_FORGAME
 #define DEPRECATED_FORGAME DEPRECATED
@@ -22,4 +22,8 @@
 #define DEPRECATED_FORGAME DEPRECATED
 #define UE_DEPRECATED_FORGAME UE_DEPRECATED
 #define PACMAN3D_API DLLEXPORT
+#define WITH_GAMEPLAY_DEBUGGER_CORE 1
+#define WITH_GAMEPLAY_DEBUGGER 1
+#define WITH_GAMEPLAY_DEBUGGER_MENU 1
+#define AIMODULE_API DLLIMPORT
 #define ENHANCEDINPUT_API DLLIMPORT

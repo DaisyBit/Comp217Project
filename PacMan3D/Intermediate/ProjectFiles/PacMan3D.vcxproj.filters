@@ -129,6 +129,12 @@
     <ClInclude Include="..\..\Source\PacMan3D\GameHud.h">
       <Filter>Source\PacMan3D</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\PacMan3D\GhostEnemy.cpp">
+      <Filter>Source\PacMan3D</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PacMan3D\GhostEnemy.h">
+      <Filter>Source\PacMan3D</Filter>
+    </ClInclude>
     <None Include="..\..\Source\PacMan3D\PacMan3D.Build.cs">
       <Filter>Source\PacMan3D</Filter>
     </None>

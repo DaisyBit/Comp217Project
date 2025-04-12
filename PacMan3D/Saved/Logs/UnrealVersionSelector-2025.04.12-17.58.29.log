@@ -1,8 +1,8 @@
-Log started at 04/12/2025 15:44:15 (2025-04-12T19:44:15Z)
+Log started at 04/12/2025 17:58:30 (2025-04-12T21:58:30Z)
 No config file at C:\Users\gregk\OneDrive\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
 Configuration will be read from:
   C:\Users\gregk\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
-Log file: C:\Github\Comp217Project\PacMan3D\Saved\Logs\UnrealVersionSelector-2025.04.12-15.44.14.log
+Log file: C:\Github\Comp217Project\PacMan3D\Saved\Logs\UnrealVersionSelector-2025.04.12-17.58.29.log
 
 Setting temp directory to 'C:\Users\gregk\AppData\Local\Temp\UnrealBuildTool\319625c3'
     Registering build platform: UnrealBuildTool.AndroidPlatformFactory
@@ -8320,9 +8320,9 @@ Skipped saving .vsconfig because contents haven't changed.
 Project generation complete (2 generated, 46 imported)
 
 Generating QueryTargets data for editor...
-WriteFileIfChanged() wrote 7 changed files of 1508 requested writes.
+WriteFileIfChanged() wrote 5 changed files of 1506 requested writes.
 Timeline:
 
 [ 0.000]
-[ 0.000](+19.170) <unknown>
-[19.170]
+[ 0.000](+20.826) <unknown>
+[20.826]
