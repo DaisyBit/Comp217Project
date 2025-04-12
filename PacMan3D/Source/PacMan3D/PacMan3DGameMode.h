@@ -6,7 +6,7 @@
 #include "GameFramework/GameModeBase.h"
 #include "PacMan3DGameMode.generated.h"
 
-UCLASS(minimalapi)
+UCLASS(Blueprintable, BlueprintType)
 class APacMan3DGameMode : public AGameModeBase
 {
 	GENERATED_BODY()

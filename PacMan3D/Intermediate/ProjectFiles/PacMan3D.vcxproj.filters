@@ -105,6 +105,12 @@
     <Filter Include="Source\PacMan3D">
       <UniqueIdentifier>{B8631D01-B9B5-3D75-82E8-A0AD80141D29}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\PacMan3D\CollectibleCherry.cpp">
+      <Filter>Source\PacMan3D</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PacMan3D\CollectibleCherry.h">
+      <Filter>Source\PacMan3D</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\PacMan3D\CollectiblePellet.cpp">
       <Filter>Source\PacMan3D</Filter>
     </ClCompile>
@@ -115,6 +121,12 @@
       <Filter>Source\PacMan3D</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PacMan3D\CollectibleSphere.h">
+      <Filter>Source\PacMan3D</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PacMan3D\GameHud.cpp">
+      <Filter>Source\PacMan3D</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PacMan3D\GameHud.h">
       <Filter>Source\PacMan3D</Filter>
     </ClInclude>
     <None Include="..\..\Source\PacMan3D\PacMan3D.Build.cs">

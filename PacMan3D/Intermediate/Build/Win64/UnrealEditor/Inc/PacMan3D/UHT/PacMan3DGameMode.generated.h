@@ -24,20 +24,20 @@ private: \
 	static void StaticRegisterNativesAPacMan3DGameMode(); \
 	friend struct Z_Construct_UClass_APacMan3DGameMode_Statics; \
 public: \
-	DECLARE_CLASS(APacMan3DGameMode, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/PacMan3D"), PACMAN3D_API) \
+	DECLARE_CLASS(APacMan3DGameMode, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/PacMan3D"), NO_API) \
 	DECLARE_SERIALIZER(APacMan3DGameMode)
 
 
 #define FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	PACMAN3D_API APacMan3DGameMode(APacMan3DGameMode&&); \
-	PACMAN3D_API APacMan3DGameMode(const APacMan3DGameMode&); \
+	NO_API APacMan3DGameMode(APacMan3DGameMode&&); \
+	NO_API APacMan3DGameMode(const APacMan3DGameMode&); \
 public: \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(PACMAN3D_API, APacMan3DGameMode); \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, APacMan3DGameMode); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APacMan3DGameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APacMan3DGameMode) \
-	PACMAN3D_API virtual ~APacMan3DGameMode();
+	NO_API virtual ~APacMan3DGameMode();
 
 
 #define FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DGameMode_h_9_PROLOG

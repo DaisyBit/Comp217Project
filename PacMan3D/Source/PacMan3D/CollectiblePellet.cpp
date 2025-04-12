@@ -11,9 +11,11 @@ ACollectiblePellet::ACollectiblePellet()
     RootComponent = CollisionSphere;
     CollisionSphere->InitSphereRadius(50.f);
     CollisionSphere->SetCollisionProfileName(TEXT("OverlapAllDynamic"));
+    CollisionSphere->SetGenerateOverlapEvents(true);
 
     Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
     Mesh->SetupAttachment(RootComponent);
+    Mesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
     CollisionSphere->OnComponentBeginOverlap.AddDynamic(this, &ACollectiblePellet::OnOverlapBegin);
 }

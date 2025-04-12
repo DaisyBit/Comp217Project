@@ -21,13 +21,13 @@ void EmptyLinkFunctionForGeneratedCodePacMan3D_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x88EB25C1,
-				0x4E60ED61,
+				0x6431A9FE,
+				0x16B575F2,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_PacMan3D.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_PacMan3D.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_PacMan3D(Z_Construct_UPackage__Script_PacMan3D, TEXT("/Script/PacMan3D"), Z_Registration_Info_UPackage__Script_PacMan3D, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x88EB25C1, 0x4E60ED61));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_PacMan3D(Z_Construct_UPackage__Script_PacMan3D, TEXT("/Script/PacMan3D"), Z_Registration_Info_UPackage__Script_PacMan3D, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x6431A9FE, 0x16B575F2));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

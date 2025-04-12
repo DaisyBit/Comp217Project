@@ -38,8 +38,10 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DGameMode() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_APacMan3DGameMode_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APacMan3DGameMode_Statics::Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
 		{ "IncludePath", "PacMan3DGameMode.h" },
+		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "PacMan3DGameMode.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
@@ -59,7 +61,7 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DGameMode() {}
 		0,
 		0,
 		0,
-		0x008802ACu,
+		0x008002ACu,
 		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APacMan3DGameMode_Statics::Class_MetaDataParams), Z_Construct_UClass_APacMan3DGameMode_Statics::Class_MetaDataParams)
 	};
 	UClass* Z_Construct_UClass_APacMan3DGameMode()
@@ -81,9 +83,9 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DGameMode() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DGameMode_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_APacMan3DGameMode, APacMan3DGameMode::StaticClass, TEXT("APacMan3DGameMode"), &Z_Registration_Info_UClass_APacMan3DGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APacMan3DGameMode), 2697627344U) },
+		{ Z_Construct_UClass_APacMan3DGameMode, APacMan3DGameMode::StaticClass, TEXT("APacMan3DGameMode"), &Z_Registration_Info_UClass_APacMan3DGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APacMan3DGameMode), 950204299U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DGameMode_h_1024816030(TEXT("/Script/PacMan3D"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DGameMode_h_2416587716(TEXT("/Script/PacMan3D"),
 		Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DGameMode_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
