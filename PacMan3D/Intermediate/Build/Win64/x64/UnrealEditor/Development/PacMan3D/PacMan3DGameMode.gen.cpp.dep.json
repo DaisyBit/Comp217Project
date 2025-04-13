@@ -1,17 +1,17 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\4d4m2\\onedrive\\documents\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\unrealeditor\\inc\\pacman3d\\uht\\pacman3dgamemode.gen.cpp",
+        "Source": "c:\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\unrealeditor\\inc\\pacman3d\\uht\\pacman3dgamemode.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\4d4m2\\onedrive\\documents\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\x64\\pacman3deditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "PCH": "c:\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\x64\\pacman3deditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\4d4m2\\onedrive\\documents\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\pacman3d\\definitions.pacman3d.h",
-            "c:\\users\\4d4m2\\onedrive\\documents\\github\\comp217project\\pacman3d\\source\\pacman3d\\pacman3dgamemode.h",
+            "c:\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\pacman3d\\definitions.pacman3d.h",
+            "c:\\github\\comp217project\\pacman3d\\source\\pacman3d\\pacman3dgamemode.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
-            "c:\\users\\4d4m2\\onedrive\\documents\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\unrealeditor\\inc\\pacman3d\\uht\\pacman3dgamemode.generated.h"
+            "c:\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\unrealeditor\\inc\\pacman3d\\uht\\pacman3dgamemode.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

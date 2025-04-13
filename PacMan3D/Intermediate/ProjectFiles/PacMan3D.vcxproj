@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{AC50D36F-A7DE-3EF3-87EC-E69F939CC40F}</ProjectGuid>
+    <ProjectGuid>{669BA990-2BEA-3E1D-8344-F9233475C0AE}</ProjectGuid>
     <RootNamespace>PacMan3D</RootNamespace>
   </PropertyGroup>
   <Import Project="UECommon.props" />
@@ -412,6 +412,12 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClInclude Include="..\..\Source\PacMan3D\GhostEnemy.h"/>
+    <ClCompile Include="..\..\Source\PacMan3D\LevelTransitionVolume.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories_1)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles_1)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PacMan3D\LevelTransitionVolume.h"/>
     <ClCompile Include="..\..\Source\PacMan3D\MovingSpikeTrap.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories_1)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles_1)</ForcedIncludeFiles>

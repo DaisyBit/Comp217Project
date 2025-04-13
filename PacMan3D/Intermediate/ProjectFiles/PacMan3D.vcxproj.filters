@@ -135,6 +135,12 @@
     <ClInclude Include="..\..\Source\PacMan3D\GhostEnemy.h">
       <Filter>Source\PacMan3D</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\PacMan3D\LevelTransitionVolume.cpp">
+      <Filter>Source\PacMan3D</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PacMan3D\LevelTransitionVolume.h">
+      <Filter>Source\PacMan3D</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\PacMan3D\MovingSpikeTrap.cpp">
       <Filter>Source\PacMan3D</Filter>
     </ClCompile>
