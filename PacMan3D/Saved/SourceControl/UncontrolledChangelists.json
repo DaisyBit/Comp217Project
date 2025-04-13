@@ -5,7 +5,23 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Github/Comp217Project/PacMan3D/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+				"C:/users/4d4m2/OneDrive/Documents/GitHub/Comp217Project/PacMan3D/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/users/4d4m2/OneDrive/Documents/GitHub/Comp217Project/PacMan3D/Content/Fab/Magic_Portal/magic_portal.uasset",
+				"C:/users/4d4m2/OneDrive/Documents/GitHub/Comp217Project/PacMan3D/Content/Fab/Magic_Portal/magic_portal_texture_0.uasset",
+				"C:/users/4d4m2/OneDrive/Documents/GitHub/Comp217Project/PacMan3D/Content/Fab/Magic_Portal/magic_portal_texture_1.uasset",
+				"C:/users/4d4m2/OneDrive/Documents/GitHub/Comp217Project/PacMan3D/Content/Fab/Magic_Portal/magic_portal_texture_2.uasset",
+				"C:/users/4d4m2/OneDrive/Documents/GitHub/Comp217Project/PacMan3D/Content/Fab/Magic_Portal/magic_portal_texture_3.uasset",
+				"C:/users/4d4m2/OneDrive/Documents/GitHub/Comp217Project/PacMan3D/Content/Fab/Magic_Portal/magic_portal_texture_4.uasset",
+				"C:/users/4d4m2/OneDrive/Documents/GitHub/Comp217Project/PacMan3D/Content/Fab/Magic_Portal/magic_portal_texture_5.uasset",
+				"C:/users/4d4m2/OneDrive/Documents/GitHub/Comp217Project/PacMan3D/Content/Fab/Magic_Portal/magic_portal_texture_6.uasset",
+				"C:/users/4d4m2/OneDrive/Documents/GitHub/Comp217Project/PacMan3D/Content/Fab/Magic_Portal/magic_portal_texture_7.uasset",
+				"C:/users/4d4m2/OneDrive/Documents/GitHub/Comp217Project/PacMan3D/Content/Fab/Magic_Portal/MagicStone.uasset",
+				"C:/users/4d4m2/OneDrive/Documents/GitHub/Comp217Project/PacMan3D/Content/Fab/Magic_Portal/MagicStoneMoss.uasset",
+				"C:/users/4d4m2/OneDrive/Documents/GitHub/Comp217Project/PacMan3D/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/EG/OT4I40ZN2EVV3A9HC59YGZ.uasset",
+				"C:/users/4d4m2/OneDrive/Documents/GitHub/Comp217Project/PacMan3D/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/R9/Z4KWJXYMUHJ1HWE05CI0RN.uasset",
+				"C:/users/4d4m2/OneDrive/Documents/GitHub/Comp217Project/PacMan3D/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/H8/LPAJZD4MERA2L5MOCC2D77.uasset",
+				"C:/users/4d4m2/OneDrive/Documents/GitHub/Comp217Project/PacMan3D/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/A9/G9C2YNLM7H03Y9RAF7SGPO.uasset",
+				"C:/users/4d4m2/OneDrive/Documents/GitHub/Comp217Project/PacMan3D/Content/Fab/Magic_Portal/PortalSurface.uasset"
 			]
 		}
 	]
