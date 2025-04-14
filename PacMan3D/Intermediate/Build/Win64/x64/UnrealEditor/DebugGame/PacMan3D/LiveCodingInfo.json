@@ -13,6 +13,7 @@
 			"MyMusicManager.cpp.obj",
 			"PacMan3D.cpp.obj",
 			"PacMan3DCharacter.cpp.obj",
+			"PacMan3DGameMode.cpp.obj",
 			"PacMan3DPlayerController.cpp.obj",
 			"PacMan3DProjectile.cpp.obj",
 			"Portal.cpp.obj",
@@ -35,8 +36,7 @@
 			"PacMan3DProjectile.gen.cpp.obj",
 			"Portal.gen.cpp.obj",
 			"TP_PickUpComponent.gen.cpp.obj",
-			"TP_WeaponComponent.gen.cpp.obj",
-			"PacMan3DGameMode.cpp.obj"
+			"TP_WeaponComponent.gen.cpp.obj"
 		]
 	}
 }

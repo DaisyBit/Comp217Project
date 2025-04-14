@@ -1,10 +1,10 @@
-Log started at 04/14/2025 16:22:57 (2025-04-14T20:22:57Z)
-No config file at C:\Users\gregk\OneDrive\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Log started at 04/14/2025 16:55:04 (2025-04-14T20:55:04Z)
+No config file at C:\Users\4d4m2\OneDrive\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
 Configuration will be read from:
-  C:\Users\gregk\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
-Log file: C:\Github\Comp217Project\PacMan3D\Saved\Logs\UnrealVersionSelector-2025.04.14-16.22.56.log
+  C:\Users\4d4m2\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Log file: C:\Users\4d4m2\OneDrive\Documents\GitHub\Comp217Project\PacMan3D\Saved\Logs\UnrealVersionSelector-2025.04.14-16.55.04.log
 
-Setting temp directory to 'C:\Users\gregk\AppData\Local\Temp\UnrealBuildTool\319625c3'
+Setting temp directory to 'C:\Users\4d4m2\AppData\Local\Temp\UnrealBuildTool\319625c3'
     Registering build platform: UnrealBuildTool.AndroidPlatformFactory
     Registering build platform: UnrealBuildTool.IOSPlatformFactory
     Registering build platform: UnrealBuildTool.LinuxPlatformFactory
@@ -13,26 +13,15 @@ Setting temp directory to 'C:\Users\gregk\AppData\Local\Temp\UnrealBuildTool\319
     Registering build platform: UnrealBuildTool.WindowsPlatformFactory
 Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
 Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
-Found Universal CRT version 10.0.10240.0 at C:\Program Files (x86)\Windows Kits\10
-Found Windows 10 SDK version 10.0.17763.0 at C:\Program Files (x86)\Windows Kits\10
-Found Universal CRT version 10.0.17763.0 at C:\Program Files (x86)\Windows Kits\10
-Found Windows 10 SDK version 10.0.18362.0 at C:\Program Files (x86)\Windows Kits\10
-Found Universal CRT version 10.0.18362.0 at C:\Program Files (x86)\Windows Kits\10
-Found Windows 10 SDK version 10.0.19041.0 at C:\Program Files (x86)\Windows Kits\10
-Found Universal CRT version 10.0.19041.0 at C:\Program Files (x86)\Windows Kits\10
 Found Windows 10 SDK version 10.0.20348.0 at C:\Program Files (x86)\Windows Kits\10
 Found Universal CRT version 10.0.20348.0 at C:\Program Files (x86)\Windows Kits\10
-Found Windows 10 SDK version 10.0.22000.0 at C:\Program Files (x86)\Windows Kits\10
-Found Universal CRT version 10.0.22000.0 at C:\Program Files (x86)\Windows Kits\10
 Found Windows 10 SDK version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
 Found Universal CRT version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
-Found Windows 10 SDK version 10.0.26100.0 at C:\Program Files (x86)\Windows Kits\10
-Found Universal CRT version 10.0.26100.0 at C:\Program Files (x86)\Windows Kits\10
-Win64 Installed SDK(s): MinVersion_Sdk=10.0.00000.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.18362.0, Version_AutoSdk=10.0.18362.0, CurrentVersion_AutoSdk=
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.00000.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.22621.0, Version_AutoSdk=10.0.18362.0, CurrentVersion_AutoSdk=
         Registering build platform: Win64 - buildable: True
-Log file: C:\Users\gregk\AppData\Local\UnrealBuildTool\Log_GPF.txt
-Deleting old log file: C:\Users\gregk\AppData\Local\UnrealBuildTool\Log_GPF-backup-2024.05.07-17.13.56.txt
-Resolved project argument C:/Github/Comp217Project/PacMan3D/PacMan3D.uproject to C:\Github\Comp217Project\PacMan3D\PacMan3D.uproject
+Log file: C:\Users\4d4m2\AppData\Local\UnrealBuildTool\Log_GPF.txt
+Deleting old log file: C:\Users\4d4m2\AppData\Local\UnrealBuildTool\Log_GPF-backup-2024.11.02-20.08.31.txt
+Resolved project argument C:/Users/4d4m2/OneDrive/Documents/GitHub/Comp217Project/PacMan3D/PacMan3D.uproject to C:\Users\4d4m2\OneDrive\Documents\GitHub\Comp217Project\PacMan3D\PacMan3D.uproject
 Registering project generator UnrealBuildTool.AndroidProjectGenerator for Android
 Skipping project file generator registration for Android due to no valid BuildPlatform.
 Registering project generator UnrealBuildTool.IOSProjectGenerator for IOS
@@ -53,30 +42,21 @@ Registering project generator UnrealBuildTool.WindowsProjectGenerator for Win64
 
 Generating VisualStudio project files:
 Discovering modules, targets and source code for project...
-Found Visual Studio installation: C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools (Product=Microsoft.VisualStudio.Product.BuildTools, Version=16.11.35931.194)
 Found Visual Studio installation: C:\Program Files\Microsoft Visual Studio\2022\Community (Product=Microsoft.VisualStudio.Product.Community, Version=17.13.35931.197)
-Found Visual Studio installation: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community (Product=Microsoft.VisualStudio.Product.Community, Version=16.11.35931.194)
-Found Visual Studio toolchain: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.16.27023 (Family=14.16.27023, FamilyRank=4, Version=14.16.27054, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64, Error=True, Redist=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Redist\MSVC\14.42.34433)
-Found Visual Studio toolchain: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.16.27023 (Family=14.16.27023, FamilyRank=4, Version=14.16.27054, Is64Bit=True, ReleaseChannel=Latest, Architecture=arm64, Error=True, Redist=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Redist\MSVC\14.42.34433)
-Found Visual Studio toolchain: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133 (Family=14.29.30133, FamilyRank=3, Version=14.29.30159, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64, Error=False, Redist=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Redist\MSVC\14.29.30133)
-Found Visual Studio toolchain: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.29.30133 (Family=14.29.30133, FamilyRank=3, Version=14.29.30159, Is64Bit=True, ReleaseChannel=Latest, Architecture=arm64, Error=False, Redist=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Redist\MSVC\14.29.30133)
 Found Visual Studio toolchain: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532 (Family=14.36.32532, FamilyRank=0, Version=14.36.32548, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64, Error=False, Redist=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Redist\MSVC\14.42.34433)
 Found Visual Studio toolchain: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808 (Family=14.43.34808, FamilyRank=4, Version=14.43.34810, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64, Error=False, Redist=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Redist\MSVC\14.42.34433)
-Found Visual Studio toolchain: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808 (Family=14.43.34808, FamilyRank=4, Version=14.43.34810, Is64Bit=True, ReleaseChannel=Latest, Architecture=arm64, Error=False, Redist=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Redist\MSVC\14.42.34433)
-Found Visual Studio toolchain: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808 (Family=14.43.34808, FamilyRank=4, Version=14.43.34810, Is64Bit=True, ReleaseChannel=Latest, Architecture=arm64ec, Error=False, Redist=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Redist\MSVC\14.42.34433)
-Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133 (Family=14.29.30133, FamilyRank=3, Version=14.29.30159, Is64Bit=True, ReleaseChannel=Latest, Architecture=x64, Error=False, Redist=C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Redist\MSVC\14.29.30133)
 Detected supported platforms: Win64
 Skipping C:\Program Files\Epic Games\UE_5.3\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
 Skipping C:\Program Files\Epic Games\UE_5.3\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
-Compiling C:\Github\Comp217Project\PacMan3D\Intermediate\Build\BuildRules\PacMan3DModuleRules.dll: Assembly does not exist
+Generating target Editor for C:\Users\4d4m2\OneDrive\Documents\GitHub\Comp217Project\PacMan3D\Intermediate\ProjectFiles\UE5.vcxproj
+Generating target Game for C:\Users\4d4m2\OneDrive\Documents\GitHub\Comp217Project\PacMan3D\Intermediate\ProjectFiles\UE5.vcxproj
+Compiling C:\Users\4d4m2\OneDrive\Documents\GitHub\Comp217Project\PacMan3D\Intermediate\Build\BuildRules\PacMan3DModuleRules.dll: Assembly does not exist
 Adding event matcher: CompileEventMatcher
 Adding event matcher: LinkEventMatcher
 Adding event matcher: MicrosoftEventMatcher
 Adding event matcher: XoreaxEventMatcher
-Generating target Game for C:\Github\Comp217Project\PacMan3D\Intermediate\ProjectFiles\PacMan3D.vcxproj
-Generating target Editor for C:\Github\Comp217Project\PacMan3D\Intermediate\ProjectFiles\PacMan3D.vcxproj
-Generating target Editor for C:\Github\Comp217Project\PacMan3D\Intermediate\ProjectFiles\UE5.vcxproj
-Generating target Game for C:\Github\Comp217Project\PacMan3D\Intermediate\ProjectFiles\UE5.vcxproj
+Generating target Game for C:\Users\4d4m2\OneDrive\Documents\GitHub\Comp217Project\PacMan3D\Intermediate\ProjectFiles\PacMan3D.vcxproj
+Generating target Editor for C:\Users\4d4m2\OneDrive\Documents\GitHub\Comp217Project\PacMan3D\Intermediate\ProjectFiles\PacMan3D.vcxproj
 Adding shader source code...
 AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.3\Engine\Source\Developer\AITestSuite\AITestSuite.Build.cs
 AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.3\Engine\Source\Developer\Android\AndroidDeviceDetection\AndroidDeviceDetection.Build.cs
@@ -1772,15 +1752,14 @@ AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Virtu
 AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Web\HttpBlueprint\Source\HttpBlueprintGraph\HttpBlueprintGraph.Build.cs
 AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\Web\HttpBlueprint\Source\HttpBlueprint\HttpBlueprint.Build.cs
 AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.3\Engine\Plugins\XGEController\Source\XGEController.Build.cs
-AddProjectsForAllModules C:\Github\Comp217Project\PacMan3D\Plugins\VisualStudioTools\Source\VisualStudioTools\VisualStudioTools.Build.cs
-AddProjectsForAllModules C:\Github\Comp217Project\PacMan3D\Source\PacMan3D\PacMan3D.Build.cs
+AddProjectsForAllModules C:\Users\4d4m2\OneDrive\Documents\GitHub\Comp217Project\PacMan3D\Plugins\VisualStudioTools\Source\VisualStudioTools\VisualStudioTools.Build.cs
+AddProjectsForAllModules C:\Users\4d4m2\OneDrive\Documents\GitHub\Comp217Project\PacMan3D\Source\PacMan3D\PacMan3D.Build.cs
 Binding IntelliSense data...
 @progress 'Binding IntelliSense data...' 0%
 Found target: UnrealEditor
 Found target: PacMan3DEditor
 Building UnrealEditor - UnrealEditor - Win64 - Development
 Building UnrealEditor - PacMan3DEditor - Win64 - Development
-@progress 'Binding IntelliSense data...' 25%
 Excluding module AndroidLocalNotification: Excluded folder name
 Excluding module AndroidRuntimeSettings: Excluded folder name
 Excluding module AudioMixerAndroid: Excluded folder name
@@ -1794,6 +1773,7 @@ Excluding module IOSLocalNotification: Excluded folder name
 Excluding module IOSPlatformFeatures: Excluded folder name
 Excluding module IOSRuntimeSettings: Excluded folder name
 Excluding module AudioMixerSDL: Excluded folder name
+@progress 'Binding IntelliSense data...' 25%
 Excluding module UnixCommonStartup: Excluded folder name
 Excluding module AndroidDeviceDetection: Excluded folder name
 Excluding module AndroidPlatformEditor: Excluded folder name
@@ -3021,7 +3001,7 @@ Excluding module ReplicationSystemTestPlugin: Not precompiled for target 'Editor
 Compiler: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\Hostx64\x64\cl.exe
 Linker: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\Hostx64\x64\link.exe
 Library Manager: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\Hostx64\x64\lib.exe
-Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe
+Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe
 UnrealEd SharedPCH - Could not find include directory for 'sal.h' found in 'C:\Program Files\Epic Games\UE_5.3\Engine\Source\Runtime\Core\Public\Windows\WindowsPlatform.h'.
 UnrealEd SharedPCH - Skipping 'atomic' found in 'C:\Program Files\Epic Games\UE_5.3\Engine\Source\Runtime\Core\Public\Clang\ClangPlatformCodeAnalysis.h' because it doesn't appear to be a module header.
 UnrealEd SharedPCH - Could not find include directory for 'stddef.h' found in 'C:\Program Files\Epic Games\UE_5.3\Engine\Source\Runtime\Core\Public\HAL\Platform.h'.
@@ -5663,7 +5643,7 @@ Found 5 shared PCH headers (listed in order of preference):
 Compiler: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\Hostx64\x64\cl.exe
 Linker: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\Hostx64\x64\link.exe
 Library Manager: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\Hostx64\x64\lib.exe
-Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe
+Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe
 UnrealEd SharedPCH - Could not find include directory for 'sal.h' found in 'C:\Program Files\Epic Games\UE_5.3\Engine\Source\Runtime\Core\Public\Windows\WindowsPlatform.h'.
 UnrealEd SharedPCH - Skipping 'atomic' found in 'C:\Program Files\Epic Games\UE_5.3\Engine\Source\Runtime\Core\Public\Clang\ClangPlatformCodeAnalysis.h' because it doesn't appear to be a module header.
 UnrealEd SharedPCH - Could not find include directory for 'stddef.h' found in 'C:\Program Files\Epic Games\UE_5.3\Engine\Source\Runtime\Core\Public\HAL\Platform.h'.
@@ -8324,5 +8304,5 @@ WriteFileIfChanged() wrote 5 changed files of 1506 requested writes.
 Timeline:
 
 [ 0.000]
-[ 0.000](+21.273) <unknown>
-[21.273]
+[ 0.000](+12.314) <unknown>
+[12.314]
