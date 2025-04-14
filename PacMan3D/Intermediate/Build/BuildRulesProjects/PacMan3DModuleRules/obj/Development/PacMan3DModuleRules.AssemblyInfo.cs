@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PacMan3DModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a0f8581b0fc96b399eb95a5758fb5137042f23b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33cce3f9515e41e9004a65fd7fcf67d66f6bc240")]
 [assembly: System.Reflection.AssemblyProductAttribute("PacMan3DModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PacMan3DModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
