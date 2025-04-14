@@ -5,6 +5,7 @@
 #include "NavigationSystem.h"
 #include "PacMan3DCharacter.h"
 #include "Components/SphereComponent.h"
+#include "PacMan3DGameMode.h"
 
 AGhostEnemy::AGhostEnemy()
 {
@@ -27,8 +28,6 @@ AGhostEnemy::AGhostEnemy()
 void AGhostEnemy::BeginPlay()
 {
     Super::BeginPlay();
-
-    UE_LOG(LogTemp, Warning, TEXT("Ghost BeginPlay Called"));
 
     PlayerActor = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
     bIsChasing = false;
@@ -124,9 +123,16 @@ void AGhostEnemy::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* Ot
     UPrimitiveComponent* OtherComp, int32 OtherBodyIndex,
     bool bFromSweep, const FHitResult& SweepResult)
 {
-    if (Cast<APacMan3DCharacter>(OtherActor))
+    APacMan3DCharacter* Player = Cast<APacMan3DCharacter>(OtherActor);
+    if (Player)
     {
-        // Simulate player death
-        OtherActor->Destroy(); // Or trigger a respawn/game over
+        // Destroy the player (or call a custom death method if preferred)
+        Player->Destroy();
+
+        if (APacMan3DGameMode* GM = Cast<APacMan3DGameMode>(UGameplayStatics::GetGameMode(this)))
+        {
+            GM->TriggerGameOver();
+            UE_LOG(LogTemp, Warning, TEXT("TriggerGameOver called"));
+        }
     }
 }

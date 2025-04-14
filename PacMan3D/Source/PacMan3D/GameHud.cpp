@@ -7,6 +7,13 @@ void AGameHUD::DrawHUD()
 {
     Super::DrawHUD();
 
+
+    FString CurrentLevelName = UGameplayStatics::GetCurrentLevelName(this, true);
+    if (CurrentLevelName.Equals("MainMenu"))  // <- Change to your actual menu level name
+    {
+        return;
+    }
+
     APacMan3DCharacter* Player = Cast<APacMan3DCharacter>(GetOwningPawn());
     if (Player && Canvas)
     {

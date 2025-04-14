@@ -124,6 +124,12 @@
     <ClInclude Include="..\..\Source\PacMan3D\CollectibleSphere.h">
       <Filter>Source\PacMan3D</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\PacMan3D\EndGameWidget.cpp">
+      <Filter>Source\PacMan3D</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PacMan3D\EndGameWidget.h">
+      <Filter>Source\PacMan3D</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\PacMan3D\GameHud.cpp">
       <Filter>Source\PacMan3D</Filter>
     </ClCompile>

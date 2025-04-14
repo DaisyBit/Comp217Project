@@ -45,9 +45,6 @@ public:
 	UPROPERTY(BlueprintReadWrite, VisibleAnywhere, Category = "Score")
 	int32 Score = 0;
 
-protected:
-	virtual void BeginPlay();
-
 public:
 		
 	/** Look Input Action */
@@ -67,6 +64,8 @@ public:
 	bool GetHasRifle();
 
 protected:
+
+	virtual void BeginPlay() override;
 	/** Called for movement input */
 	void Move(const FInputActionValue& Value);
 

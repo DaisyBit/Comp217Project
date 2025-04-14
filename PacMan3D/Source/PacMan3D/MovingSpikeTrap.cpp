@@ -4,6 +4,7 @@
 #include "TimerManager.h"
 #include "PacMan3DCharacter.h"
 #include "Kismet/GameplayStatics.h"
+#include "PacMan3DGameMode.h"
 
 AMovingSpikeTrap::AMovingSpikeTrap()
 {
@@ -16,7 +17,7 @@ AMovingSpikeTrap::AMovingSpikeTrap()
     SpikeMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("SpikeMesh"));
     SpikeMesh->SetupAttachment(RootComponent);
     SpikeMesh->SetRelativeLocation(FVector::ZeroVector);
-    SpikeMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision); // Mesh doesn't need collision
+    SpikeMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
     // Damage detection zone
     DamageZone = CreateDefaultSubobject<UBoxComponent>(TEXT("DamageZone"));
@@ -49,7 +50,6 @@ void AMovingSpikeTrap::ExtendSpikes()
     bSpikesExtended = true;
     SpikeMesh->SetRelativeLocation(TargetLocation);
 
-    
     if (ExtendSound)
     {
         UGameplayStatics::PlaySoundAtLocation(this, ExtendSound, GetActorLocation(),
@@ -83,6 +83,12 @@ void AMovingSpikeTrap::OnSpikeOverlap(UPrimitiveComponent* OverlappedComp, AActo
         {
             UE_LOG(LogTemp, Warning, TEXT("Player touched spikes — DESTROYED"));
             Player->Destroy();
+
+            if (APacMan3DGameMode* GM = Cast<APacMan3DGameMode>(UGameplayStatics::GetGameMode(this)))
+            {
+                GM->TriggerGameOver();
+                UE_LOG(LogTemp, Warning, TEXT("TriggerGameOver called"));
+            }
         }
     }
 }
