@@ -11,4 +11,7 @@ class PACMAN3D_API AGameHUD : public AHUD
 
 protected:
     virtual void DrawHUD() override;
+
+    int32 GetRemainingPellets() const;
+    int32 GetRemainingCherries() const;
 };
