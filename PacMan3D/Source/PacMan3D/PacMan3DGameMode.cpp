@@ -41,7 +41,15 @@ void APacMan3DGameMode::OnCollectibleCollected()
 
 	if (CollectedCount >= TotalCollectibles)
 	{
-		ShowEndScreen(VictoryWidgetClass);
+		FString CurrentLevelName = UGameplayStatics::GetCurrentLevelName(this, true); // true removes PIE prefix
+		if (CurrentLevelName.Equals("Level1"))
+		{
+			ShowEndScreen(VictoryWidgetClass);
+		}
+		else
+		{
+			UE_LOG(LogTemp, Warning, TEXT("All collectibles gathered, but not in Level1 (current level: %s)"), *CurrentLevelName);
+		}
 	}
 }
 
@@ -72,4 +80,26 @@ void APacMan3DGameMode::ShowEndScreen(TSubclassOf<UUserWidget> WidgetClass)
 void APacMan3DGameMode::BeginPlay()
 {
 	Super::BeginPlay();
+
+	APlayerController* PC = UGameplayStatics::GetPlayerController(this, 0);
+	if (PC)
+	{
+		FInputModeGameOnly InputMode;
+		PC->SetInputMode(InputMode);
+		PC->SetShowMouseCursor(false);
+
+		APawn* Pawn = PC->GetPawn();
+		if (Pawn)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("PlayerController already has pawn: %s"), *Pawn->GetName());
+		}
+		else
+		{
+			UE_LOG(LogTemp, Error, TEXT("PlayerController has NO pawn — check PlayerStart, GameMode, and DefaultPawnClass!"));
+		}
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("No PlayerController found!"));
+	}
 }

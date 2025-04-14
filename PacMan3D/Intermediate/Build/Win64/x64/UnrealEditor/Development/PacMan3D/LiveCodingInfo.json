@@ -2,17 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.PacMan3D.cpp.obj": [
-			"CollectibleSphere.cpp.obj",
-			"GameHud.cpp.obj",
-			"LevelTransitionVolume.cpp.obj",
-			"MyMusicManager.cpp.obj",
-			"PacMan3D.cpp.obj",
-			"PacMan3DPlayerController.cpp.obj",
-			"PacMan3DProjectile.cpp.obj",
-			"Portal.cpp.obj",
-			"Test.cpp.obj",
-			"TP_PickUpComponent.cpp.obj",
-			"TP_WeaponComponent.cpp.obj",
 			"CollectibleCherry.gen.cpp.obj",
 			"CollectiblePellet.gen.cpp.obj",
 			"CollectibleSphere.gen.cpp.obj",
@@ -32,10 +21,21 @@
 			"TP_WeaponComponent.gen.cpp.obj",
 			"CollectibleCherry.cpp.obj",
 			"CollectiblePellet.cpp.obj",
+			"CollectibleSphere.cpp.obj",
 			"EndGameWidget.cpp.obj",
+			"GameHud.cpp.obj",
 			"GhostEnemy.cpp.obj",
+			"LevelTransitionVolume.cpp.obj",
 			"MovingSpikeTrap.cpp.obj",
+			"MyMusicManager.cpp.obj",
+			"PacMan3D.cpp.obj",
 			"PacMan3DCharacter.cpp.obj",
+			"PacMan3DPlayerController.cpp.obj",
+			"PacMan3DProjectile.cpp.obj",
+			"Portal.cpp.obj",
+			"Test.cpp.obj",
+			"TP_PickUpComponent.cpp.obj",
+			"TP_WeaponComponent.cpp.obj",
 			"PacMan3DGameMode.cpp.obj"
 		]
 	}
