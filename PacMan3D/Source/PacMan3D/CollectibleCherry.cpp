@@ -3,6 +3,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "PacMan3DCharacter.h"
 #include "UObject/ConstructorHelpers.h"
+#include "Kismet/GameplayStatics.h"  
 
 ACollectibleCherry::ACollectibleCherry()
 {
@@ -39,6 +40,14 @@ void ACollectibleCherry::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AAc
     APacMan3DCharacter* Player = Cast<APacMan3DCharacter>(OtherActor);
     if (Player)
     {
+
+        // Play the pickup sound at the cherry's location
+        if (PickupSound)
+        {
+            UGameplayStatics::PlaySoundAtLocation(this, PickupSound, GetActorLocation(), FRotator::ZeroRotator, 0.3f);
+        }
+
+
         Player->Score += 5; // ?? Cherry is worth 5 points
         Destroy();
     }

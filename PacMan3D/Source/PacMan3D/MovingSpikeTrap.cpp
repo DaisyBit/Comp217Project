@@ -3,6 +3,7 @@
 #include "Components/BoxComponent.h"
 #include "TimerManager.h"
 #include "PacMan3DCharacter.h"
+#include "Kismet/GameplayStatics.h"
 
 AMovingSpikeTrap::AMovingSpikeTrap()
 {
@@ -47,6 +48,13 @@ void AMovingSpikeTrap::ExtendSpikes()
 {
     bSpikesExtended = true;
     SpikeMesh->SetRelativeLocation(TargetLocation);
+
+    
+    if (ExtendSound)
+    {
+        UGameplayStatics::PlaySoundAtLocation(this, ExtendSound, GetActorLocation(),
+            FRotator::ZeroRotator, 0.1f);
+    }
 
     GetWorld()->GetTimerManager().SetTimer(MovementTimerHandle, this, &AMovingSpikeTrap::RetractSpikes, IntervalTime, false);
 }

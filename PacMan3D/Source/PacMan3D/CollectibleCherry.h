@@ -6,6 +6,7 @@
 
 class USphereComponent;
 class UStaticMeshComponent;
+class USoundBase; 
 
 UCLASS(Blueprintable)
 class PACMAN3D_API ACollectibleCherry : public AActor
@@ -23,6 +24,9 @@ protected:
 
     UPROPERTY(VisibleAnywhere)
     UStaticMeshComponent* Mesh;
+
+    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Audio")
+    USoundBase* PickupSound;
 
     UFUNCTION()
     void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,

@@ -12,6 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\PacMan3D.png" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -145,6 +146,12 @@
       <Filter>Source\PacMan3D</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PacMan3D\MovingSpikeTrap.h">
+      <Filter>Source\PacMan3D</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PacMan3D\MyMusicManager.cpp">
+      <Filter>Source\PacMan3D</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PacMan3D\MyMusicManager.h">
       <Filter>Source\PacMan3D</Filter>
     </ClInclude>
     <None Include="..\..\Source\PacMan3D\PacMan3D.Build.cs">

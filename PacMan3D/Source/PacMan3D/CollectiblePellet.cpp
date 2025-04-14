@@ -2,6 +2,7 @@
 #include "Components/SphereComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "PacMan3DCharacter.h"
+#include "Kismet/GameplayStatics.h"
 
 ACollectiblePellet::ACollectiblePellet()
 {
@@ -32,6 +33,12 @@ void ACollectiblePellet::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AAc
     APacMan3DCharacter* Player = Cast<APacMan3DCharacter>(OtherActor); 
     if (Player)
     {
+
+        if (PickupSound)
+        {
+            UGameplayStatics::PlaySoundAtLocation(this, PickupSound, GetActorLocation(), FRotator::ZeroRotator, 0.3f);
+        }
+
         Player->Score += 1;
         Destroy();
     }

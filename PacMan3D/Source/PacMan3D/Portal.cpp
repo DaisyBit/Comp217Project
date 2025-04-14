@@ -3,6 +3,8 @@
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/Character.h"
 #include "TimerManager.h"
+#include "Kismet/GameplayStatics.h"
+
 
 APortal::APortal()
 {
@@ -31,24 +33,34 @@ void APortal::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherA
     UPrimitiveComponent* OtherComp, int32 OtherBodyIndex,
     bool bFromSweep, const FHitResult& SweepResult)
 {
-
     if (bCanTeleport && DestinationPortal && OtherActor && OtherActor->IsA(ACharacter::StaticClass()))
     {
+        // Optionally: Play sound before teleport
+        if (TeleportSound)
+        {
+            UGameplayStatics::PlaySoundAtLocation(this, TeleportSound, GetActorLocation(), FRotator::ZeroRotator, 0.3f);
+        }
 
-        FVector DestinationLocation = DestinationPortal->GetActorLocation() + (DestinationPortal->GetActorForwardVector() * TeleportOffset);
+
+        // Teleport the actor
+        FVector DestinationLocation = DestinationPortal->GetActorLocation() +
+            (DestinationPortal->GetActorForwardVector() * TeleportOffset);
         OtherActor->SetActorLocation(DestinationLocation);
 
+        // Disable teleportation on both portals
         bCanTeleport = false;
         DestinationPortal->bCanTeleport = false;
 
-
+        // Reset teleport after 1 second
         FTimerHandle TimerHandle;
         GetWorldTimerManager().SetTimer(TimerHandle, this, &APortal::ResetTeleport, 1.0f, false);
 
         FTimerHandle TimerHandleDest;
-        DestinationPortal->GetWorldTimerManager().SetTimer(TimerHandleDest, DestinationPortal, &APortal::ResetTeleport, 1.0f, false);
+        DestinationPortal->GetWorldTimerManager().SetTimer(TimerHandleDest, DestinationPortal,
+            &APortal::ResetTeleport, 1.0f, false);
     }
 }
+
 
 void APortal::ResetTeleport()
 {

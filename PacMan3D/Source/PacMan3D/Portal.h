@@ -7,6 +7,8 @@
 class UBoxComponent;
 class UStaticMeshComponent;
 
+class USoundBase;
+
 UCLASS()
 class PACMAN3D_API APortal : public AActor
 {
@@ -24,7 +26,6 @@ public:
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Portal")
     UBoxComponent* CollisionComponent;
 
-
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Portal")
     UStaticMeshComponent* PortalMesh;
 
@@ -34,15 +35,16 @@ public:
     UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Portal")
     float TeleportOffset;
 
-
     bool bCanTeleport;
 
+    // **Add this property for the sound you want to play**
+    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Portal|Sound")
+    USoundBase* TeleportSound;
 
     UFUNCTION()
     void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
         UPrimitiveComponent* OtherComp, int32 OtherBodyIndex,
         bool bFromSweep, const FHitResult& SweepResult);
-
 
     void ResetTeleport();
 };

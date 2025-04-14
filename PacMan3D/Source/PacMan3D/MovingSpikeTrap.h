@@ -4,10 +4,12 @@
 #include "GameFramework/Actor.h"
 #include "MovingSpikeTrap.generated.h"
 
+
 // Forward declarations
 class UStaticMeshComponent;
 class UBoxComponent;
 class USceneComponent;
+class USoundBase; // Forward declaration for sound assets
 
 UCLASS()
 class PACMAN3D_API AMovingSpikeTrap : public AActor
@@ -55,4 +57,7 @@ protected:
     void OnSpikeOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
         UPrimitiveComponent* OtherComp, int32 OtherBodyIndex,
         bool bFromSweep, const FHitResult& SweepResult);
+
+    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Spike Sound")
+    USoundBase* ExtendSound;
 };

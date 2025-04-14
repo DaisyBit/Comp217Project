@@ -6,6 +6,10 @@
 #include "GameFramework/Actor.h"
 #include "CollectiblePellet.generated.h"
 
+class USphereComponent;
+class UStaticMeshComponent;
+class USoundBase;
+
 UCLASS(Blueprintable)
 class PACMAN3D_API ACollectiblePellet : public AActor
 {
@@ -22,6 +26,9 @@ class PACMAN3D_API ACollectiblePellet : public AActor
 
         UPROPERTY(VisibleAnywhere)
         class UStaticMeshComponent* Mesh;
+
+        UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Audio")
+        USoundBase* PickupSound;
 
         UFUNCTION()
         void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
