@@ -5,7 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Github/Comp217Project/PacMan3D/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+				"C:/Github/Comp217Project/PacMan3D/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Github/Comp217Project/PacMan3D/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/NE/9FMGFYR8ZZ9H4NXVU5RNS2.uasset",
+				"C:/Github/Comp217Project/PacMan3D/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/TL/Y1LBVCDBWDH2UROIA976RI.uasset"
 			]
 		}
 	]
