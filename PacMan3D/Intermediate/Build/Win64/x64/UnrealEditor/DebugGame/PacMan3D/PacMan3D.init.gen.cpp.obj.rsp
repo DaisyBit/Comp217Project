@@ -1,11 +1,11 @@
-"C:\Users\4d4m2\OneDrive\Documents\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\UnrealEditor\Inc\PacMan3D\UHT\PacMan3D.init.gen.cpp"
-/FI"C:\Users\4d4m2\OneDrive\Documents\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\PacMan3DEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.Cpp20.h"
-/FI"C:\Users\4d4m2\OneDrive\Documents\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\PacMan3D\Definitions.PacMan3D.h"
-/Yu"C:\Users\4d4m2\OneDrive\Documents\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\PacMan3DEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.Cpp20.h"
-/Fp"C:\Users\4d4m2\OneDrive\Documents\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\PacMan3DEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.Cpp20.h.pch"
-/Fo"C:\Users\4d4m2\OneDrive\Documents\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\PacMan3D\PacMan3D.init.gen.cpp.obj"
-/sourceDependencies "C:\Users\4d4m2\OneDrive\Documents\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\PacMan3D\PacMan3D.init.gen.cpp.dep.json"
-@"C:\Users\4d4m2\OneDrive\Documents\GitHub\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\PacMan3D\PacMan3D.Shared.rsp"
+"C:\Github\Comp217Project\PacMan3D\Intermediate\Build\Win64\UnrealEditor\Inc\PacMan3D\UHT\PacMan3D.init.gen.cpp"
+/FI"C:\Github\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\PacMan3DEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.Cpp20.h"
+/FI"C:\Github\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\PacMan3D\Definitions.PacMan3D.h"
+/Yu"C:\Github\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\PacMan3DEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.Cpp20.h"
+/Fp"C:\Github\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\PacMan3DEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.Cpp20.h.pch"
+/Fo"C:\Github\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\PacMan3D\PacMan3D.init.gen.cpp.obj"
+/sourceDependencies "C:\Github\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\PacMan3D\PacMan3D.init.gen.cpp.dep.json"
+@"C:\Github\Comp217Project\PacMan3D\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\PacMan3D\PacMan3D.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

@@ -100,13 +100,7 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DProjectile() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APacMan3DProjectile_OnHit_Statics::Function_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** called when projectile hits something */" },
-#endif
 		{ "ModuleRelativePath", "PacMan3DProjectile.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "called when projectile hits something" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APacMan3DProjectile_OnHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APacMan3DProjectile, nullptr, "OnHit", nullptr, nullptr, Z_Construct_UFunction_APacMan3DProjectile_OnHit_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APacMan3DProjectile_OnHit_Statics::PropPointers), sizeof(Z_Construct_UFunction_APacMan3DProjectile_OnHit_Statics::PacMan3DProjectile_eventOnHit_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00C20401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APacMan3DProjectile_OnHit_Statics::Function_MetaDataParams), Z_Construct_UFunction_APacMan3DProjectile_OnHit_Statics::Function_MetaDataParams) };
@@ -151,7 +145,7 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DProjectile() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_APacMan3DProjectile_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_APacMan3DProjectile_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_APacMan3DProjectile_OnHit, "OnHit" }, // 3919111339
+		{ &Z_Construct_UFunction_APacMan3DProjectile_OnHit, "OnHit" }, // 1262208185
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_APacMan3DProjectile_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -163,14 +157,8 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DProjectile() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APacMan3DProjectile_Statics::NewProp_CollisionComp_MetaData[] = {
 		{ "Category", "Projectile" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Sphere collision component */" },
-#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "PacMan3DProjectile.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Sphere collision component" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APacMan3DProjectile_Statics::NewProp_CollisionComp = { "CollisionComp", nullptr, (EPropertyFlags)0x00400000000b0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APacMan3DProjectile, CollisionComp), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APacMan3DProjectile_Statics::NewProp_CollisionComp_MetaData), Z_Construct_UClass_APacMan3DProjectile_Statics::NewProp_CollisionComp_MetaData) };
@@ -178,14 +166,8 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DProjectile() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APacMan3DProjectile_Statics::NewProp_ProjectileMovement_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Movement" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Projectile movement component */" },
-#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "PacMan3DProjectile.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Projectile movement component" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APacMan3DProjectile_Statics::NewProp_ProjectileMovement = { "ProjectileMovement", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APacMan3DProjectile, ProjectileMovement), Z_Construct_UClass_UProjectileMovementComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APacMan3DProjectile_Statics::NewProp_ProjectileMovement_MetaData), Z_Construct_UClass_APacMan3DProjectile_Statics::NewProp_ProjectileMovement_MetaData) };
@@ -226,15 +208,15 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DProjectile() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APacMan3DProjectile);
 	APacMan3DProjectile::~APacMan3DProjectile() {}
-	struct Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DProjectile_h_Statics
+	struct Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DProjectile_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DProjectile_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_APacMan3DProjectile, APacMan3DProjectile::StaticClass, TEXT("APacMan3DProjectile"), &Z_Registration_Info_UClass_APacMan3DProjectile, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APacMan3DProjectile), 2002222737U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DProjectile_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_APacMan3DProjectile, APacMan3DProjectile::StaticClass, TEXT("APacMan3DProjectile"), &Z_Registration_Info_UClass_APacMan3DProjectile, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APacMan3DProjectile), 3388397339U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DProjectile_h_267945092(TEXT("/Script/PacMan3D"),
-		Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DProjectile_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DProjectile_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DProjectile_h_2289447268(TEXT("/Script/PacMan3D"),
+		Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DProjectile_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DProjectile_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

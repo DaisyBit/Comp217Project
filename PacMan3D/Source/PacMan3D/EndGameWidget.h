@@ -10,7 +10,6 @@ class PACMAN3D_API UEndGameWidget : public UUserWidget
     GENERATED_BODY()
 
 public:
-    // Called when the Main Menu button is clicked
     UFUNCTION(BlueprintCallable)
     void OnReturnToMainMenuClicked();
 };

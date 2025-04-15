@@ -1,13 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\4d4m2\\onedrive\\documents\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\unrealeditor\\inc\\pacman3d\\uht\\pacman3dprojectile.gen.cpp",
+        "Source": "c:\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\unrealeditor\\inc\\pacman3d\\uht\\pacman3dprojectile.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\4d4m2\\onedrive\\documents\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\x64\\pacman3deditor\\debuggame\\unrealed\\sharedpch.unrealed.nonoptimized.cpp20.h.pch",
+        "PCH": "c:\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\x64\\pacman3deditor\\debuggame\\unrealed\\sharedpch.unrealed.nonoptimized.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\4d4m2\\onedrive\\documents\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\pacman3d\\definitions.pacman3d.h",
-            "c:\\users\\4d4m2\\onedrive\\documents\\github\\comp217project\\pacman3d\\source\\pacman3d\\pacman3dprojectile.h",
-            "c:\\users\\4d4m2\\onedrive\\documents\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\unrealeditor\\inc\\pacman3d\\uht\\pacman3dprojectile.generated.h"
+            "c:\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\pacman3d\\definitions.pacman3d.h",
+            "c:\\github\\comp217project\\pacman3d\\source\\pacman3d\\pacman3dprojectile.h",
+            "c:\\github\\comp217project\\pacman3d\\intermediate\\build\\win64\\unrealeditor\\inc\\pacman3d\\uht\\pacman3dprojectile.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

@@ -18,11 +18,9 @@ public:
 protected:
     virtual void BeginPlay() override;
 
-    // Audio component for background music
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Audio")
     UAudioComponent* BackgroundMusicComponent;
 
-    // The background music sound asset. Assign this in the editor.
     UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Audio")
     USoundBase* BackgroundMusic;
 };

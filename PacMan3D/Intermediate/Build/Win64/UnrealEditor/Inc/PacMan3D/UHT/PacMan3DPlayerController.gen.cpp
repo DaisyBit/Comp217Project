@@ -44,9 +44,6 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DPlayerController() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_APacMan3DPlayerController_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APacMan3DPlayerController_Statics::Class_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n *\n */" },
-#endif
 		{ "HideCategories", "Collision Rendering Transformation" },
 		{ "IncludePath", "PacMan3DPlayerController.h" },
 		{ "ModuleRelativePath", "PacMan3DPlayerController.h" },
@@ -55,13 +52,7 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DPlayerController() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APacMan3DPlayerController_Statics::NewProp_InputMappingContext_MetaData[] = {
 		{ "Category", "Input" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Input Mapping Context to be used for player input */" },
-#endif
 		{ "ModuleRelativePath", "PacMan3DPlayerController.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Input Mapping Context to be used for player input" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APacMan3DPlayerController_Statics::NewProp_InputMappingContext = { "InputMappingContext", nullptr, (EPropertyFlags)0x0020080000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APacMan3DPlayerController, InputMappingContext), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APacMan3DPlayerController_Statics::NewProp_InputMappingContext_MetaData), Z_Construct_UClass_APacMan3DPlayerController_Statics::NewProp_InputMappingContext_MetaData) };
@@ -102,15 +93,15 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DPlayerController() {}
 	APacMan3DPlayerController::APacMan3DPlayerController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APacMan3DPlayerController);
 	APacMan3DPlayerController::~APacMan3DPlayerController() {}
-	struct Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DPlayerController_h_Statics
+	struct Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DPlayerController_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DPlayerController_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_APacMan3DPlayerController, APacMan3DPlayerController::StaticClass, TEXT("APacMan3DPlayerController"), &Z_Registration_Info_UClass_APacMan3DPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APacMan3DPlayerController), 2058340847U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DPlayerController_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_APacMan3DPlayerController, APacMan3DPlayerController::StaticClass, TEXT("APacMan3DPlayerController"), &Z_Registration_Info_UClass_APacMan3DPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APacMan3DPlayerController), 1992006594U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DPlayerController_h_2531893417(TEXT("/Script/PacMan3D"),
-		Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DPlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DPlayerController_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DPlayerController_h_802581649(TEXT("/Script/PacMan3D"),
+		Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DPlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DPlayerController_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

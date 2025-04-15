@@ -2,6 +2,7 @@
 #include "Engine/Canvas.h"
 #include "PacMan3DCharacter.h"
 #include "UObject/ConstructorHelpers.h"
+#include "Kismet/GameplayStatics.h"
 
 void AGameHUD::DrawHUD()
 {
@@ -9,7 +10,7 @@ void AGameHUD::DrawHUD()
 
 
     FString CurrentLevelName = UGameplayStatics::GetCurrentLevelName(this, true);
-    if (CurrentLevelName.Equals("MainMenu"))  // <- Change to your actual menu level name
+    if (CurrentLevelName.Equals("MainMenu")) 
     {
         return;
     }
@@ -20,7 +21,6 @@ void AGameHUD::DrawHUD()
 
         FString ScoreText = FString::Printf(TEXT("Score: %d"), Player->Score);
 
-        // Position and color
         FVector2D Position(50.f, 50.f);
         FLinearColor Color = FLinearColor::Yellow;
         float Scale = 1.5f;

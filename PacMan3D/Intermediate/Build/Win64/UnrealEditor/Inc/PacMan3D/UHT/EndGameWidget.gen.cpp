@@ -38,13 +38,7 @@ void EmptyLinkFunctionForGeneratedCodeEndGameWidget() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UEndGameWidget_OnReturnToMainMenuClicked_Statics::Function_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Called when the Main Menu button is clicked\n" },
-#endif
 		{ "ModuleRelativePath", "EndGameWidget.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Called when the Main Menu button is clicked" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UEndGameWidget_OnReturnToMainMenuClicked_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UEndGameWidget, nullptr, "OnReturnToMainMenuClicked", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UEndGameWidget_OnReturnToMainMenuClicked_Statics::Function_MetaDataParams), Z_Construct_UFunction_UEndGameWidget_OnReturnToMainMenuClicked_Statics::Function_MetaDataParams) };
@@ -78,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeEndGameWidget() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UEndGameWidget_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UEndGameWidget_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UEndGameWidget_OnReturnToMainMenuClicked, "OnReturnToMainMenuClicked" }, // 883759663
+		{ &Z_Construct_UFunction_UEndGameWidget_OnReturnToMainMenuClicked, "OnReturnToMainMenuClicked" }, // 4049933658
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UEndGameWidget_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -120,15 +114,15 @@ void EmptyLinkFunctionForGeneratedCodeEndGameWidget() {}
 	UEndGameWidget::UEndGameWidget(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UEndGameWidget);
 	UEndGameWidget::~UEndGameWidget() {}
-	struct Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_EndGameWidget_h_Statics
+	struct Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_EndGameWidget_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_EndGameWidget_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UEndGameWidget, UEndGameWidget::StaticClass, TEXT("UEndGameWidget"), &Z_Registration_Info_UClass_UEndGameWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEndGameWidget), 1591203945U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_EndGameWidget_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UEndGameWidget, UEndGameWidget::StaticClass, TEXT("UEndGameWidget"), &Z_Registration_Info_UClass_UEndGameWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEndGameWidget), 3746008607U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_EndGameWidget_h_3607091002(TEXT("/Script/PacMan3D"),
-		Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_EndGameWidget_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_EndGameWidget_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_EndGameWidget_h_1177115264(TEXT("/Script/PacMan3D"),
+		Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_EndGameWidget_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_EndGameWidget_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

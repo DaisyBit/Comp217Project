@@ -35,23 +35,19 @@ void APortal::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherA
 {
     if (bCanTeleport && DestinationPortal && OtherActor && OtherActor->IsA(ACharacter::StaticClass()))
     {
-        // Optionally: Play sound before teleport
         if (TeleportSound)
         {
             UGameplayStatics::PlaySoundAtLocation(this, TeleportSound, GetActorLocation(), FRotator::ZeroRotator, 0.3f);
         }
 
 
-        // Teleport the actor
         FVector DestinationLocation = DestinationPortal->GetActorLocation() +
             (DestinationPortal->GetActorForwardVector() * TeleportOffset);
         OtherActor->SetActorLocation(DestinationLocation);
 
-        // Disable teleportation on both portals
         bCanTeleport = false;
         DestinationPortal->bCanTeleport = false;
 
-        // Reset teleport after 1 second
         FTimerHandle TimerHandle;
         GetWorldTimerManager().SetTimer(TimerHandle, this, &APortal::ResetTeleport, 1.0f, false);
 

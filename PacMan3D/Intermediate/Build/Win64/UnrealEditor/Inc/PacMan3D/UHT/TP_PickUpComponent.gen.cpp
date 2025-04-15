@@ -39,13 +39,7 @@ void EmptyLinkFunctionForGeneratedCodeTP_PickUpComponent() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_PacMan3D_OnPickUp__DelegateSignature_Statics::Function_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Declaration of the delegate that will be called when someone picks this up\n// The character picking this up is the parameter sent with the notification\n" },
-#endif
 		{ "ModuleRelativePath", "TP_PickUpComponent.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Declaration of the delegate that will be called when someone picks this up\nThe character picking this up is the parameter sent with the notification" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_PacMan3D_OnPickUp__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_PacMan3D, nullptr, "OnPickUp__DelegateSignature", nullptr, nullptr, Z_Construct_UDelegateFunction_PacMan3D_OnPickUp__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_PacMan3D_OnPickUp__DelegateSignature_Statics::PropPointers), sizeof(Z_Construct_UDelegateFunction_PacMan3D_OnPickUp__DelegateSignature_Statics::_Script_PacMan3D_eventOnPickUp_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_PacMan3D_OnPickUp__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_PacMan3D_OnPickUp__DelegateSignature_Statics::Function_MetaDataParams) };
@@ -159,13 +153,7 @@ void FOnPickUp_DelegateWrapper(const FMulticastScriptDelegate& OnPickUp, APacMan
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UTP_PickUpComponent_OnSphereBeginOverlap_Statics::Function_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Code for when something overlaps this component */" },
-#endif
 		{ "ModuleRelativePath", "TP_PickUpComponent.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Code for when something overlaps this component" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UTP_PickUpComponent_OnSphereBeginOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UTP_PickUpComponent, nullptr, "OnSphereBeginOverlap", nullptr, nullptr, Z_Construct_UFunction_UTP_PickUpComponent_OnSphereBeginOverlap_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UTP_PickUpComponent_OnSphereBeginOverlap_Statics::PropPointers), sizeof(Z_Construct_UFunction_UTP_PickUpComponent_OnSphereBeginOverlap_Statics::TP_PickUpComponent_eventOnSphereBeginOverlap_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00480401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UTP_PickUpComponent_OnSphereBeginOverlap_Statics::Function_MetaDataParams), Z_Construct_UFunction_UTP_PickUpComponent_OnSphereBeginOverlap_Statics::Function_MetaDataParams) };
@@ -206,7 +194,7 @@ void FOnPickUp_DelegateWrapper(const FMulticastScriptDelegate& OnPickUp, APacMan
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UTP_PickUpComponent_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UTP_PickUpComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UTP_PickUpComponent_OnSphereBeginOverlap, "OnSphereBeginOverlap" }, // 2511957123
+		{ &Z_Construct_UFunction_UTP_PickUpComponent_OnSphereBeginOverlap, "OnSphereBeginOverlap" }, // 1774716091
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UTP_PickUpComponent_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -223,16 +211,10 @@ void FOnPickUp_DelegateWrapper(const FMulticastScriptDelegate& OnPickUp, APacMan
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTP_PickUpComponent_Statics::NewProp_OnPickUp_MetaData[] = {
 		{ "Category", "Interaction" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Delegate to whom anyone can subscribe to receive this event */" },
-#endif
 		{ "ModuleRelativePath", "TP_PickUpComponent.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Delegate to whom anyone can subscribe to receive this event" },
-#endif
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UTP_PickUpComponent_Statics::NewProp_OnPickUp = { "OnPickUp", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UTP_PickUpComponent, OnPickUp), Z_Construct_UDelegateFunction_PacMan3D_OnPickUp__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UTP_PickUpComponent_Statics::NewProp_OnPickUp_MetaData), Z_Construct_UClass_UTP_PickUpComponent_Statics::NewProp_OnPickUp_MetaData) }; // 2954782505
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UTP_PickUpComponent_Statics::NewProp_OnPickUp = { "OnPickUp", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UTP_PickUpComponent, OnPickUp), Z_Construct_UDelegateFunction_PacMan3D_OnPickUp__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UTP_PickUpComponent_Statics::NewProp_OnPickUp_MetaData), Z_Construct_UClass_UTP_PickUpComponent_Statics::NewProp_OnPickUp_MetaData) }; // 1328451449
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UTP_PickUpComponent_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTP_PickUpComponent_Statics::NewProp_OnPickUp,
 	};
@@ -269,15 +251,15 @@ void FOnPickUp_DelegateWrapper(const FMulticastScriptDelegate& OnPickUp, APacMan
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UTP_PickUpComponent);
 	UTP_PickUpComponent::~UTP_PickUpComponent() {}
-	struct Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_TP_PickUpComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_TP_PickUpComponent_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_TP_PickUpComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UTP_PickUpComponent, UTP_PickUpComponent::StaticClass, TEXT("UTP_PickUpComponent"), &Z_Registration_Info_UClass_UTP_PickUpComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UTP_PickUpComponent), 136552794U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_TP_PickUpComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UTP_PickUpComponent, UTP_PickUpComponent::StaticClass, TEXT("UTP_PickUpComponent"), &Z_Registration_Info_UClass_UTP_PickUpComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UTP_PickUpComponent), 2291738703U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_TP_PickUpComponent_h_945377435(TEXT("/Script/PacMan3D"),
-		Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_TP_PickUpComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_TP_PickUpComponent_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_TP_PickUpComponent_h_287091138(TEXT("/Script/PacMan3D"),
+		Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_TP_PickUpComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_TP_PickUpComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

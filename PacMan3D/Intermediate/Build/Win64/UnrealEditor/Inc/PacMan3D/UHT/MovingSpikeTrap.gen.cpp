@@ -186,14 +186,8 @@ void EmptyLinkFunctionForGeneratedCodeMovingSpikeTrap() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AMovingSpikeTrap_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingSpikeTrap_Statics::Class_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Forward declaration for sound assets\n" },
-#endif
 		{ "IncludePath", "MovingSpikeTrap.h" },
 		{ "ModuleRelativePath", "MovingSpikeTrap.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Forward declaration for sound assets" },
-#endif
 	};
 #endif
 #if WITH_METADATA
@@ -206,39 +200,21 @@ void EmptyLinkFunctionForGeneratedCodeMovingSpikeTrap() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingSpikeTrap_Statics::NewProp_MovementSpeed_MetaData[] = {
 		{ "Category", "Spike Settings" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// How far the spikes extend\n" },
-#endif
 		{ "ModuleRelativePath", "MovingSpikeTrap.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "How far the spikes extend" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMovingSpikeTrap_Statics::NewProp_MovementSpeed = { "MovementSpeed", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovingSpikeTrap, MovementSpeed), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMovingSpikeTrap_Statics::NewProp_MovementSpeed_MetaData), Z_Construct_UClass_AMovingSpikeTrap_Statics::NewProp_MovementSpeed_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingSpikeTrap_Statics::NewProp_IntervalTime_MetaData[] = {
 		{ "Category", "Spike Settings" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Units per second (unused for instant movement)\n" },
-#endif
 		{ "ModuleRelativePath", "MovingSpikeTrap.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Units per second (unused for instant movement)" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMovingSpikeTrap_Statics::NewProp_IntervalTime = { "IntervalTime", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovingSpikeTrap, IntervalTime), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMovingSpikeTrap_Statics::NewProp_IntervalTime_MetaData), Z_Construct_UClass_AMovingSpikeTrap_Statics::NewProp_IntervalTime_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMovingSpikeTrap_Statics::NewProp_MovementDirection_MetaData[] = {
 		{ "Category", "Spike Settings" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// How long to stay extended/retracted\n" },
-#endif
 		{ "ModuleRelativePath", "MovingSpikeTrap.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "How long to stay extended/retracted" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMovingSpikeTrap_Statics::NewProp_MovementDirection = { "MovementDirection", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovingSpikeTrap, MovementDirection), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMovingSpikeTrap_Statics::NewProp_MovementDirection_MetaData), Z_Construct_UClass_AMovingSpikeTrap_Statics::NewProp_MovementDirection_MetaData) };
@@ -318,15 +294,15 @@ void EmptyLinkFunctionForGeneratedCodeMovingSpikeTrap() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMovingSpikeTrap);
 	AMovingSpikeTrap::~AMovingSpikeTrap() {}
-	struct Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_MovingSpikeTrap_h_Statics
+	struct Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_MovingSpikeTrap_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_MovingSpikeTrap_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AMovingSpikeTrap, AMovingSpikeTrap::StaticClass, TEXT("AMovingSpikeTrap"), &Z_Registration_Info_UClass_AMovingSpikeTrap, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingSpikeTrap), 1582625434U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_MovingSpikeTrap_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_AMovingSpikeTrap, AMovingSpikeTrap::StaticClass, TEXT("AMovingSpikeTrap"), &Z_Registration_Info_UClass_AMovingSpikeTrap, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovingSpikeTrap), 406844969U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_MovingSpikeTrap_h_1209502953(TEXT("/Script/PacMan3D"),
-		Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_MovingSpikeTrap_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_MovingSpikeTrap_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_MovingSpikeTrap_h_2278127693(TEXT("/Script/PacMan3D"),
+		Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_MovingSpikeTrap_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_MovingSpikeTrap_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

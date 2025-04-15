@@ -26,5 +26,5 @@ protected:
     UBoxComponent* TransitionBox;
 
     UPROPERTY(EditAnywhere, Category = "Level Transition")
-    FName TargetLevelName = "Level1"; // Editable in editor
+    FName TargetLevelName = "Level1";
 };

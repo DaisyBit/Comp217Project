@@ -11,18 +11,15 @@ APacMan3DGameMode::APacMan3DGameMode()
 {
 	HUDClass = AGameHUD::StaticClass();
 
-	// Set default pawn class to Blueprinted character
 	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnClassFinder(TEXT("/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter"));
 	DefaultPawnClass = PlayerPawnClassFinder.Class;
 
-	// Preload Victory UI
 	static ConstructorHelpers::FClassFinder<UUserWidget> VictoryWidgetBP(TEXT("/Game/WBP_VictoryPopup"));
 	if (VictoryWidgetBP.Succeeded())
 	{
 		VictoryWidgetClass = VictoryWidgetBP.Class;
 	}
 
-	// Preload Game Over UI
 	static ConstructorHelpers::FClassFinder<UUserWidget> GameOverWidgetBP(TEXT("/Game/WBP_GameOverPopup"));
 	if (GameOverWidgetBP.Succeeded())
 	{

@@ -5,11 +5,10 @@
 #include "MovingSpikeTrap.generated.h"
 
 
-// Forward declarations
 class UStaticMeshComponent;
 class UBoxComponent;
 class USceneComponent;
-class USoundBase; // Forward declaration for sound assets
+class USoundBase;
 
 UCLASS()
 class PACMAN3D_API AMovingSpikeTrap : public AActor
@@ -30,16 +29,16 @@ protected:
     bool bSpikesExtended;
 
     UPROPERTY(EditAnywhere, Category = "Spike Settings")
-    float MovementDistance = 100.f; // How far the spikes extend
+    float MovementDistance = 100.f;
 
     UPROPERTY(EditAnywhere, Category = "Spike Settings")
-    float MovementSpeed = 100.f; // Units per second (unused for instant movement)
+    float MovementSpeed = 100.f;
 
     UPROPERTY(EditAnywhere, Category = "Spike Settings")
-    float IntervalTime = 2.f; // How long to stay extended/retracted
+    float IntervalTime = 2.f;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spike Settings")
-    FVector MovementDirection = FVector(1.f, 0.f, 0.f); // Default: move along X axis
+    FVector MovementDirection = FVector(1.f, 0.f, 0.f);
 
     FVector StartLocation;
     FVector TargetLocation;

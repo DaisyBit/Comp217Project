@@ -8,9 +8,6 @@
 
 class UInputMappingContext;
 
-/**
- *
- */
 UCLASS()
 class PACMAN3D_API APacMan3DPlayerController : public APlayerController
 {
@@ -18,14 +15,11 @@ class PACMAN3D_API APacMan3DPlayerController : public APlayerController
 	
 protected:
 
-	/** Input Mapping Context to be used for player input */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
 	UInputMappingContext* InputMappingContext;
 
-	// Begin Actor interface
 protected:
 
 	virtual void BeginPlay() override;
 
-	// End Actor interface
 };

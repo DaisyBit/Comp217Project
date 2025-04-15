@@ -19,7 +19,6 @@ ACollectibleCherry::ACollectibleCherry()
     Mesh->SetupAttachment(RootComponent);
     Mesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
-    // Optional: set a cherry mesh (update the path if needed)
     static ConstructorHelpers::FObjectFinder<UStaticMesh> CherryMesh(TEXT("/Game/Meshes/CherryMesh.CherryMesh"));
     if (CherryMesh.Succeeded())
     {

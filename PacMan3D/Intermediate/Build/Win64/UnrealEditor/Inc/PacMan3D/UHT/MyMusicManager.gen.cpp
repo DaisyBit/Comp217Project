@@ -56,27 +56,15 @@ void EmptyLinkFunctionForGeneratedCodeMyMusicManager() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMusicManager_Statics::NewProp_BackgroundMusicComponent_MetaData[] = {
 		{ "Category", "Audio" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Audio component for background music\n" },
-#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "MyMusicManager.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Audio component for background music" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyMusicManager_Statics::NewProp_BackgroundMusicComponent = { "BackgroundMusicComponent", nullptr, (EPropertyFlags)0x00200800000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyMusicManager, BackgroundMusicComponent), Z_Construct_UClass_UAudioComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMyMusicManager_Statics::NewProp_BackgroundMusicComponent_MetaData), Z_Construct_UClass_AMyMusicManager_Statics::NewProp_BackgroundMusicComponent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMusicManager_Statics::NewProp_BackgroundMusic_MetaData[] = {
 		{ "Category", "Audio" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// The background music sound asset. Assign this in the editor.\n" },
-#endif
 		{ "ModuleRelativePath", "MyMusicManager.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "The background music sound asset. Assign this in the editor." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyMusicManager_Statics::NewProp_BackgroundMusic = { "BackgroundMusic", nullptr, (EPropertyFlags)0x0020080000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyMusicManager, BackgroundMusic), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMyMusicManager_Statics::NewProp_BackgroundMusic_MetaData), Z_Construct_UClass_AMyMusicManager_Statics::NewProp_BackgroundMusic_MetaData) };
@@ -117,15 +105,15 @@ void EmptyLinkFunctionForGeneratedCodeMyMusicManager() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMyMusicManager);
 	AMyMusicManager::~AMyMusicManager() {}
-	struct Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_MyMusicManager_h_Statics
+	struct Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_MyMusicManager_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_MyMusicManager_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AMyMusicManager, AMyMusicManager::StaticClass, TEXT("AMyMusicManager"), &Z_Registration_Info_UClass_AMyMusicManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyMusicManager), 4244605893U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_MyMusicManager_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_AMyMusicManager, AMyMusicManager::StaticClass, TEXT("AMyMusicManager"), &Z_Registration_Info_UClass_AMyMusicManager, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyMusicManager), 902399899U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_MyMusicManager_h_3866912198(TEXT("/Script/PacMan3D"),
-		Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_MyMusicManager_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_MyMusicManager_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_MyMusicManager_h_2511491657(TEXT("/Script/PacMan3D"),
+		Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_MyMusicManager_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_MyMusicManager_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

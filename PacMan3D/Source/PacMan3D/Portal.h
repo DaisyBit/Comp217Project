@@ -15,7 +15,6 @@ class PACMAN3D_API APortal : public AActor
     GENERATED_BODY()
 
 public:
-    // Constructor
     APortal();
 
 protected:
@@ -37,7 +36,6 @@ public:
 
     bool bCanTeleport;
 
-    // **Add this property for the sound you want to play**
     UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Portal|Sound")
     USoundBase* TeleportSound;
 

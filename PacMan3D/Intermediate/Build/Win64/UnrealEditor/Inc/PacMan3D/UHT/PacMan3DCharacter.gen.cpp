@@ -67,13 +67,7 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DCharacter() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APacMan3DCharacter_GetHasRifle_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Weapon" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Getter for the bool */" },
-#endif
 		{ "ModuleRelativePath", "PacMan3DCharacter.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Getter for the bool" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APacMan3DCharacter_GetHasRifle_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APacMan3DCharacter, nullptr, "GetHasRifle", nullptr, nullptr, Z_Construct_UFunction_APacMan3DCharacter_GetHasRifle_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APacMan3DCharacter_GetHasRifle_Statics::PropPointers), sizeof(Z_Construct_UFunction_APacMan3DCharacter_GetHasRifle_Statics::PacMan3DCharacter_eventGetHasRifle_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APacMan3DCharacter_GetHasRifle_Statics::Function_MetaDataParams), Z_Construct_UFunction_APacMan3DCharacter_GetHasRifle_Statics::Function_MetaDataParams) };
@@ -113,13 +107,7 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DCharacter() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APacMan3DCharacter_SetHasRifle_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Weapon" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Setter to set the bool */" },
-#endif
 		{ "ModuleRelativePath", "PacMan3DCharacter.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Setter to set the bool" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APacMan3DCharacter_SetHasRifle_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APacMan3DCharacter, nullptr, "SetHasRifle", nullptr, nullptr, Z_Construct_UFunction_APacMan3DCharacter_SetHasRifle_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APacMan3DCharacter_SetHasRifle_Statics::PropPointers), sizeof(Z_Construct_UFunction_APacMan3DCharacter_SetHasRifle_Statics::PacMan3DCharacter_eventSetHasRifle_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APacMan3DCharacter_SetHasRifle_Statics::Function_MetaDataParams), Z_Construct_UFunction_APacMan3DCharacter_SetHasRifle_Statics::Function_MetaDataParams) };
@@ -189,8 +177,8 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DCharacter() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_APacMan3DCharacter_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_APacMan3DCharacter_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_APacMan3DCharacter_GetHasRifle, "GetHasRifle" }, // 1706931987
-		{ &Z_Construct_UFunction_APacMan3DCharacter_SetHasRifle, "SetHasRifle" }, // 184384828
+		{ &Z_Construct_UFunction_APacMan3DCharacter_GetHasRifle, "GetHasRifle" }, // 2756649323
+		{ &Z_Construct_UFunction_APacMan3DCharacter_SetHasRifle, "SetHasRifle" }, // 3164382481
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_APacMan3DCharacter_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -203,14 +191,8 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DCharacter() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_Mesh1P_MetaData[] = {
 		{ "Category", "Mesh" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Pawn mesh: 1st person view (arms; seen only by self) */" },
-#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "PacMan3DCharacter.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Pawn mesh: 1st person view (arms; seen only by self)" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_Mesh1P = { "Mesh1P", nullptr, (EPropertyFlags)0x00400000000b0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APacMan3DCharacter, Mesh1P), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_Mesh1P_MetaData), Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_Mesh1P_MetaData) };
@@ -218,14 +200,8 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DCharacter() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_FirstPersonCameraComponent_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** First person camera */" },
-#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "PacMan3DCharacter.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "First person camera" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_FirstPersonCameraComponent = { "FirstPersonCameraComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APacMan3DCharacter, FirstPersonCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_FirstPersonCameraComponent_MetaData), Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_FirstPersonCameraComponent_MetaData) };
@@ -233,13 +209,7 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DCharacter() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_DefaultMappingContext_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Input" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** MappingContext */" },
-#endif
 		{ "ModuleRelativePath", "PacMan3DCharacter.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "MappingContext" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_DefaultMappingContext = { "DefaultMappingContext", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APacMan3DCharacter, DefaultMappingContext), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_DefaultMappingContext_MetaData), Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_DefaultMappingContext_MetaData) };
@@ -247,13 +217,7 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DCharacter() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_JumpAction_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Input" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Jump Input Action */" },
-#endif
 		{ "ModuleRelativePath", "PacMan3DCharacter.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Jump Input Action" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_JumpAction = { "JumpAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APacMan3DCharacter, JumpAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_JumpAction_MetaData), Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_JumpAction_MetaData) };
@@ -261,13 +225,7 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DCharacter() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_MoveAction_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Input" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Move Input Action */" },
-#endif
 		{ "ModuleRelativePath", "PacMan3DCharacter.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Move Input Action" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_MoveAction = { "MoveAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APacMan3DCharacter, MoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_MoveAction_MetaData), Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_MoveAction_MetaData) };
@@ -282,26 +240,14 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DCharacter() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_LookAction_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Input" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Look Input Action */" },
-#endif
 		{ "ModuleRelativePath", "PacMan3DCharacter.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Look Input Action" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_LookAction = { "LookAction", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APacMan3DCharacter, LookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_LookAction_MetaData), Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_LookAction_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_bHasRifle_MetaData[] = {
 		{ "Category", "Weapon" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/** Bool for AnimBP to switch to another animation set */" },
-#endif
 		{ "ModuleRelativePath", "PacMan3DCharacter.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Bool for AnimBP to switch to another animation set" },
-#endif
 	};
 #endif
 	void Z_Construct_UClass_APacMan3DCharacter_Statics::NewProp_bHasRifle_SetBit(void* Obj)
@@ -352,15 +298,15 @@ void EmptyLinkFunctionForGeneratedCodePacMan3DCharacter() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APacMan3DCharacter);
 	APacMan3DCharacter::~APacMan3DCharacter() {}
-	struct Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_Statics
+	struct Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_APacMan3DCharacter, APacMan3DCharacter::StaticClass, TEXT("APacMan3DCharacter"), &Z_Registration_Info_UClass_APacMan3DCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APacMan3DCharacter), 1011549231U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_APacMan3DCharacter, APacMan3DCharacter::StaticClass, TEXT("APacMan3DCharacter"), &Z_Registration_Info_UClass_APacMan3DCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APacMan3DCharacter), 1197954638U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_1347709146(TEXT("/Script/PacMan3D"),
-		Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_4d4m2_OneDrive_Documents_GitHub_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_2822579432(TEXT("/Script/PacMan3D"),
+		Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Comp217Project_PacMan3D_Source_PacMan3D_PacMan3DCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

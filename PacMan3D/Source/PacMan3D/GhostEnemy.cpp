@@ -32,7 +32,7 @@ void AGhostEnemy::BeginPlay()
     PlayerActor = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
     bIsChasing = false;
 
-    Wander(); // Start wandering
+    Wander();
 }
 
 void AGhostEnemy::Tick(float DeltaTime)
@@ -98,7 +98,6 @@ void AGhostEnemy::Wander()
         }
     }
 
-    // Schedule next wander move
     GetWorld()->GetTimerManager().SetTimer(WanderTimerHandle, this, &AGhostEnemy::Wander, WanderDelay, false);
 }
 
@@ -126,7 +125,6 @@ void AGhostEnemy::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* Ot
     APacMan3DCharacter* Player = Cast<APacMan3DCharacter>(OtherActor);
     if (Player)
     {
-        // Destroy the player (or call a custom death method if preferred)
         Player->Destroy();
 
         if (APacMan3DGameMode* GM = Cast<APacMan3DGameMode>(UGameplayStatics::GetGameMode(this)))
